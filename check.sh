@@ -15,7 +15,7 @@ echo 'will set env'
 sed -i -- 's#vvDN_CREDIT_URL#'"$DN_CREDIT_URL"'#g' conf.php
 
 # sed -i -e "s/vvPI_SERVER/"$API_SERVER"/g" conf.php
-sed -i -- 's#vvPI_SERVER#'"$API_SERVER"'#g' conf.php
+sed -i -- 's#vvAPI_SERVER#'"$API_SERVER"'#g' conf.php
 
 # sed -i -e "s/vvUSER_SERVER_URL/"$USER_SERVER_URL"/g" conf.php
 sed -i -- 's#vvUSER_SERVER_URL#'"$USER_SERVER_URL"'#g' conf.php
